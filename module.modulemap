@@ -1,0 +1,6 @@
+module CNCURSESW_LINUX {
+  header "cncursesw_linux.h"
+  link "ncursesw"
+  requires linux
+  export *
+}
